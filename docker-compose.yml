@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  easycost.api:
+    image: easycostapi
+    build:
+      context: .
+      dockerfile: EasyCost.Api/Dockerfile
